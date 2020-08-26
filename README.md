@@ -1,2 +1,2 @@
-title: [The title of your site]
-description: [A short description of your site's purpose]
+Welcome to my blog.
+I am a senior at the College of Charleston and am persuing a BS in Computer Science.
