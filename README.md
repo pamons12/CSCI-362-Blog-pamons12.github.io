@@ -23,4 +23,5 @@ lawyers.
 <br/>Self: Software engineers should always be learning and improving themselves throughout their careers.
 
 <br/> 1.10: To help counter terrorism, many countries are planning or have developed computer systems that track large numbers of their citizens and their actions. Clearly, this has privacy implications. Discuss the ethics of working on the development of this type of system.
+
 <br/> One one hand, having such large scale tracking violates the privacy of citizens and if this system was compromised could result in a catastrophic leak of private information. On the other hand, it does provide citizens with more protection when it comes to terrorism and could lead to the prevention of terrorist attacks on that country's soil. 
