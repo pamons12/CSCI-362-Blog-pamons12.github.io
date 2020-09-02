@@ -37,15 +37,15 @@ Lastly, is the sharing of code and the importance of open source projects. Inter
 
 <br/> 11.4 What is the common characteristic of all architectural styles that are geared to
 supporting software fault tolerance?
-<br/>A system that can support fault tolerance has to be designed to use redundant and diverse hardware and software.
+<br/>-A system that can support fault tolerance has to be designed to use redundant and diverse hardware and software.
 
 <br/> 11.7 It has been suggested that the control software for a radiation therapy machine, used
 to treat patients with cancer should be implemented using N-version programming.
 Comment on whether or not you think this is a good suggestion.
-<br/>I think using N-version programming for a radiation therapy machine is not only a good idea but should be required. Being that radiation therapy could be fatal or result in life long complications if used incorrectly. Essentially N-version programming runs the same task on separate identical machines and a fault manager will compare the outputs at the end. If all the answers line up then the fault manager knows there is a low chance of error, if the outputs don't line up the machine can be shut down safely without any harm to the patient. 
+<br/>-I think using N-version programming for a radiation therapy machine is not only a good idea but should be required. Being that radiation therapy could be fatal or result in life long complications if used incorrectly. Essentially N-version programming runs the same task on separate identical machines and a fault manager will compare the outputs at the end. If all the answers line up then the fault manager knows there is a low chance of error, if the outputs don't line up the machine can be shut down safely without any harm to the patient. 
 
 <br/> 11.9 Explain why you should explicitly handle all exceptions in a system that is intended to have a high level of availability.
-<br/> A system that has a high availability means that it needs to be running and operational as much as possible. This means if a problem does arise the system needs to correct it while maintaining a high level of availability. Problems need to be found and resolved as soon as possible to prevent a snowball effect of issues, later on, possibly compromising the availability of the system.
+<br/>-A system that has a high availability means that it needs to be running and operational as much as possible. This means if a problem does arise the system needs to correct it while maintaining a high level of availability. Problems need to be found and resolved as soon as possible to prevent a snowball effect of issues, later on, possibly compromising the availability of the system.
 
 <br/>12.5 A train protection system automatically applies the brakes of a train if the speed limit for a segment of track is exceeded, or if the train enters a track segment that is currently signaled with a red light (i.e., the segment should not be entered). There are two critical-safety requirements for this train protection system: 
 <br/>The train shall not enter a segment of track that is signaled with a red light. 
