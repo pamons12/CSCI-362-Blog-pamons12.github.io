@@ -63,4 +63,65 @@ Comment on whether or not you think this is a good suggestion.
 <br/>Both of these incidents could have been prevented if development wasn't rushed. That brings up the question, how can we prevent software failures in the future? To address this we must look at the Entrepreneur article regarding why software projects fail.  First up is insufficient time, developing software can be a very lengthy process, so when companies try to set unrealistic deadlines for their developers this is setting up the project to fail before it even starts. This leads to the next point, inadequate planning. When planning to develop software both the developers and the company's management team needs to have a meeting to come to a deadline that works with both parties along with what the project requirements are. Just like a sturdy house cant be built on a weak foundation, good software cant be properly developed without a good plan. This next point ties the first two together, unclear project requirements. If a good plan isn't laid out or if the plan is changing midway through development this will risk having to redo entire sections of code causing the project to go over budget and over time. Next up is having too many people assigned to the same project, this is just like the saying of having too many hands in the cookie jar. Adding more developers to the project isn't always the answer as this can drive up costs and could result in communication issues if everyone isn't exercising good communication. After a project is completed, thorough testing is essential in order to make sure the project is functioning as intended. The Therac-25 accidents are a great example of this, a lack of testing caused machines to deliver elevated doses of Therac-25 causing radiation poising in patients. Last but not least, is the failure to find a good project manager. Without a good project manager, development could become disorganized and confusing real quick. 
 <br/>In conclusion, addressing these six software project concerns will ensure the software development process to run more smoothly and will prevent software project failures in the future.
 
+### HW5: Chapter 4 and Reflections
+<span style="margin-left:2em">The readings this week seemed to focus on the importance of incorporating Test-Driven Development and establishing non-functional and functional requirements before the development phase even starts. Establishing non-functional and functional requirements before the development begins is essential to project organization and possible issues down the road. If a developer does not have a clear understanding of both the non-functional and functional requirements they could forget about a feature that could result in catastrophic errors and a delayed release date. I think the "Magical Number Seven" page ties in well here, this article states that the human brain can only store 7 (+-2) objects in their short term memory. The point is if all the functional and non-functional requirements are not laid out in an organized fashion the user could very easily forget to implement a feature, especially in big projects. After all, it is much easier to add features before development begins, instead of adding features mid-development or even worse at the end of development. With regard to incorporating test-driven development, all engineers should develop tests throughout the development process to ensure their software is behaving as intended.
+4.5) Using the technique suggested here, where natural language descriptions are presented in a standard format, write plausible user requirements for the following functions: 
+a) An unattended gas pump system that includes a credit card reader. The customer swipes the card through the reader, then specifies the amount of fuel required. The fuel is delivered and the customer's account is debited. 
+Function: Issues gas
+Description: Issue gas by charging the user for the amount of gas pumped
+Input: pin/zipcode for debit or credit card, the grade of fuel
+Source: Charging the credit card for the amount pumped based off of grade
+Outputs: The gas the user pumps
+Destination: Selection of fuel grade
+Action: The gas filling system is at zero when no transaction is being made. When the card, card details, and the grade of fuel is selected, the user can begin pumping gas. 
+Requires: Requires a valid card with details and the grade of fuel
+Precondition: User must have a valid credit/debit card with details to use it
+Post Condition: The gas is issued
+Side Effects: None
+b) The cash-dispensing function in a bank ATM. 
+Function: Dispense money from ATM
+Description: Given the amount of money is dispensed to the user if they have a valid debit card and pin
+Input: Amount of cashback, debit card, and pin
+Source: Keypad to get the amount of cash wanted and pin. Card reader to insert a debit card
+Outputs: The cash the user requests
+Destination: Amount deducted from users card
+Action: The ATM  is in 0 state when no transaction is happening. When the user inserts a card the ATM asks for a pin. Once a valid card and the pin is given the user can select the amount of cash they want. Once the amount of cash is inputted the ATM makes sure the card has enough money for that. If it does the card is given back and the money is dispensed.
+Requires: Requires the user's card and pin, the amount of money the user wishes to take out
+Precondition: User must have enough money on the card for the withdraw and a valid debit card with pin
+Postcondition: The cash is dispensed to the user
+Side Effects: None
+c) In an internet banking system, a facility that allows customers to transfer funds from one account held with the bank to another account with the same bank.
+Function: Transfer money
+Description: The given transferred amount is deducted from the sender's account and added to the receiver's account. 
+Input: Account number of receiver and amount to be transferred
+Source: Transfer money from source account to receivers account for a given amount
+Outputs: The given amount of money arrives at the destination account
+Destination: Selection of how much to send from the sender's account
+Action: The system is in 0 state when no transaction is happening. When a user wants to transfer money, the system asks for the amount to be transferred and the destination account details. After this information is given the funds are transferred to the destination
+Requires: Requires amount to be transferred and details for both source and destination accounts
+Precondition: Enough funds to supply the transfer and the details for both source and destination accounts
+Postcondition: The funds are transferred from the source to the destination account
+Side effects: None
+4.6) Suggest how an engineer responsible for drawing up a system requirements specification might keep track of the relationships between functional and non-functional requirements.
+Functional Requirements
+Describe what the system should do, requirements of individual system features
+Non-functional Requirments
+Describe the expectations of the system
+An engineer could keep track of these by writing down all of the non-functional requirements and underneath each one write what functional requirements will be needed to satisfy this non-functional requirement.
+4.7) Using your knowledge of how an ATM is used, develop a set of use cases the could serve as a basis for understanding the requirements for an ATM system.
+The user does not have a valid card or forgets the pin so no transaction occurs
+The user wishes to make a deposit. The user inserts their debit card and pin. The user selects the deposit option and asks for the user to insert their cash. The user inserts cash and once the machine is done counting the user verifies the amount. ATM deposits funds to the account and returns the card to the user, the transaction is complete.
+The user wishes to make a withdraw. The user inserts their debit card and pin. The user selects the withdraw option and inputs the amount of cash they would like to withdraw. The ATM verifies the inputs and returns the card to the user. Once the card is returned the cash is dispensed, the transaction is complete.
+
+*** HW6: Chapter 2
+2.1) Suggest the most appropriate generic software process model that might be used as a basis for managing the development of the following systems. Explain your answer according to the type of system being developed: 
+1. A system to control antilock braking in a car
+I think the most appropriate generic software process model for this example would be the waterfall model. I choose this model because it is focused on making sure there are no flaws before deployment and the antilock braking is a critical system in ensuring the driver's safety.
+2. A virtual reality system to support software maintenance
+I think the most appropriate generic software process model for this example would be incremental development. I choose this model because it would allow the developers to easily make changes or maintenance to the software based on the feedback of the users. It is also not a critical system
+3. A university accounting system that replaces an existing system
+I think the most appropriate generic software process model for this example would be integration and configuration. I choose this model because an existing system is being replaced and some of that data will be reused. 
+4. An interactive travel planning system that helps users plan journeys with the lowest environmental impact
+I think the most appropriate generic software process model for this example would be incremental development. I choose this model because it is likely developers may want to update the systems algorithm that figures out how large an environmental impact a trip is. 
+
 
