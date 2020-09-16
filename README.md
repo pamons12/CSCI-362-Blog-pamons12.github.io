@@ -64,20 +64,20 @@ Comment on whether or not you think this is a good suggestion.
 <br/>In conclusion, addressing these six software project concerns will ensure the software development process to run more smoothly and will prevent software project failures in the future.
 
 ### HW5: Chapter 4 and Reflections
-<span style="margin-left:2em">The readings this week seemed to focus on the importance of incorporating Test-Driven Development and establishing non-functional and functional requirements before the development phase even starts. Establishing non-functional and functional requirements before the development begins is essential to project organization and possible issues down the road. If a developer does not have a clear understanding of both the non-functional and functional requirements they could forget about a feature that could result in catastrophic errors and a delayed release date. I think the "Magical Number Seven" page ties in well here, this article states that the human brain can only store 7 (+-2) objects in their short term memory. The point is if all the functional and non-functional requirements are not laid out in an organized fashion the user could very easily forget to implement a feature, especially in big projects. After all, it is much easier to add features before development begins, instead of adding features mid-development or even worse at the end of development. With regard to incorporating test-driven development, all engineers should develop tests throughout the development process to ensure their software is behaving as intended.
-4.5) Using the technique suggested here, where natural language descriptions are presented in a standard format, write plausible user requirements for the following functions: 
-a) An unattended gas pump system that includes a credit card reader. The customer swipes the card through the reader, then specifies the amount of fuel required. The fuel is delivered and the customer's account is debited. 
-Function: Issues gas
-Description: Issue gas by charging the user for the amount of gas pumped
-Input: pin/zipcode for debit or credit card, the grade of fuel
-Source: Charging the credit card for the amount pumped based off of grade
-Outputs: The gas the user pumps
-Destination: Selection of fuel grade
-Action: The gas filling system is at zero when no transaction is being made. When the card, card details, and the grade of fuel is selected, the user can begin pumping gas. 
-Requires: Requires a valid card with details and the grade of fuel
-Precondition: User must have a valid credit/debit card with details to use it
-Post Condition: The gas is issued
-Side Effects: None
+<span style="margin-left:3em">The readings this week seemed to focus on the importance of incorporating Test-Driven Development and establishing non-functional and functional requirements before the development phase even starts. Establishing non-functional and functional requirements before the development begins is essential to project organization and possible issues down the road. If a developer does not have a clear understanding of both the non-functional and functional requirements they could forget about a feature that could result in catastrophic errors and a delayed release date. I think the "Magical Number Seven" page ties in well here, this article states that the human brain can only store 7 (+-2) objects in their short term memory. The point is if all the functional and non-functional requirements are not laid out in an organized fashion the user could very easily forget to implement a feature, especially in big projects. After all, it is much easier to add features before development begins, instead of adding features mid-development or even worse at the end of development. With regard to incorporating test-driven development, all engineers should develop tests throughout the development process to ensure their software is behaving as intended.
+<br/>4.5) Using the technique suggested here, where natural language descriptions are presented in a standard format, write plausible user requirements for the following functions: 
+<br/>a) An unattended gas pump system that includes a credit card reader. The customer swipes the card through the reader, then specifies the amount of fuel required. The fuel is delivered and the customer's account is debited. 
+<br/><span style="margin-left:3em">Function: Issues gas
+<br/><span style="margin-left:3em">Description: Issue gas by charging the user for the amount of gas pumped
+<br/><span style="margin-left:3em">Input: pin/zipcode for debit or credit card, the grade of fuel
+<br/><span style="margin-left:3em">Source: Charging the credit card for the amount pumped based off of grade
+<br/><span style="margin-left:3em">Outputs: The gas the user pumps
+<br/><span style="margin-left:3em">Destination: Selection of fuel grade
+<br/><span style="margin-left:3em">Action: The gas filling system is at zero when no transaction is being made. When the card, card details, and the grade of fuel is selected, the user can begin pumping gas. 
+<br/><span style="margin-left:3em">Requires: Requires a valid card with details and the grade of fuel
+<br/><span style="margin-left:3em">Precondition: User must have a valid credit/debit card with details to use it
+<br/><span style="margin-left:3em">Post Condition: The gas is issued
+<br/><span style="margin-left:3em">Side Effects: None
 b) The cash-dispensing function in a bank ATM. 
 Function: Dispense money from ATM
 Description: Given the amount of money is dispensed to the user if they have a valid debit card and pin
