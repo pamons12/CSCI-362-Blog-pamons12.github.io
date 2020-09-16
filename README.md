@@ -118,7 +118,7 @@ Comment on whether or not you think this is a good suggestion.
 <br/><span style="margin-left:3em">-The user wishes to make a deposit. The user inserts their debit card and pin. The user selects the deposit option and asks for the user to insert their cash. The user inserts cash and once the machine is done counting the user verifies the amount. ATM deposits funds to the account and returns the card to the user, the transaction is complete.
 <br/><span style="margin-left:3em">-The user wishes to make a withdraw. The user inserts their debit card and pin. The user selects the withdraw option and inputs the amount of cash they would like to withdraw. The ATM verifies the inputs and returns the card to the user. Once the card is returned the cash is dispensed, the transaction is complete.
 <br/>
-*** HW6: Chapter 2
+### HW6: Chapter 2
 <br/>2.1) Suggest the most appropriate generic software process model that might be used as a basis for managing the development of the following systems. Explain your answer according to the type of system being developed: 
 <br/><span style="margin-left:3em">1. A system to control antilock braking in a car
 <br/><span style="margin-left:4em">-I think the most appropriate generic software process model for this example would be the waterfall model. I choose this model because it is focused on making sure there are no flaws before deployment and the antilock braking is a critical system in ensuring the driver's safety.
