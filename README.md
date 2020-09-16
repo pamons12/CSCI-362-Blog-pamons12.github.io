@@ -125,7 +125,7 @@ Comment on whether or not you think this is a good suggestion.
 <br/><span style="margin-left:3em">2. A virtual reality system to support software maintenance
 <br/><span style="margin-left:4em">-I think the most appropriate generic software process model for this example would be incremental development. I choose this model because it would allow the developers to easily make changes or maintenance to the software based on the feedback of the users. It is also not a critical system
 <br/><span style="margin-left:3em">3. A university accounting system that replaces an existing system
-<br/><span style="margin-left:4em">-<br/><span style="margin-left:4em">-I think the most appropriate generic software process model for this example would be integration and configuration. I choose this model because an existing system is being replaced and some of that data will be reused. 
+<br/><span style="margin-left:4em">-I think the most appropriate generic software process model for this example would be integration and configuration. I choose this model because an existing system is being replaced and some of that data will be reused. 
 <br/><span style="margin-left:3em">4. An interactive travel planning system that helps users plan journeys with the lowest environmental impact
 <br/><span style="margin-left:4em">-I think the most appropriate generic software process model for this example would be incremental development. I choose this model because it is likely developers may want to update the systems algorithm that figures out how large an environmental impact a trip is. 
 
