@@ -73,40 +73,41 @@ Comment on whether or not you think this is a good suggestion.
 <br/><span style="margin-left:3em">Source: Charging the credit card for the amount pumped based off of grade
 <br/><span style="margin-left:3em">Outputs: The gas the user pumps
 <br/><span style="margin-left:3em">Destination: Selection of fuel grade
-<br/><span style="margin-left:3em">Action: The gas filling system is at zero when no transaction is being made. When the card, card details, and the grade of fuel is selected, the user can begin pumping gas. 
+<br/><span style="margin-left:3em">Action: The gas filling system is at zero when no transaction is being made. When the card, card details, and the grade of fuel is selected, <br/><span style="margin-left:3em">the user can begin pumping gas. 
 <br/><span style="margin-left:3em">Requires: Requires a valid card with details and the grade of fuel
 <br/><span style="margin-left:3em">Precondition: User must have a valid credit/debit card with details to use it
 <br/><span style="margin-left:3em">Post Condition: The gas is issued
 <br/><span style="margin-left:3em">Side Effects: None
-b) The cash-dispensing function in a bank ATM. 
-Function: Dispense money from ATM
-Description: Given the amount of money is dispensed to the user if they have a valid debit card and pin
-Input: Amount of cashback, debit card, and pin
-Source: Keypad to get the amount of cash wanted and pin. Card reader to insert a debit card
-Outputs: The cash the user requests
-Destination: Amount deducted from users card
-Action: The ATM  is in 0 state when no transaction is happening. When the user inserts a card the ATM asks for a pin. Once a valid card and the pin is given the user can select the amount of cash they want. Once the amount of cash is inputted the ATM makes sure the card has enough money for that. If it does the card is given back and the money is dispensed.
-Requires: Requires the user's card and pin, the amount of money the user wishes to take out
-Precondition: User must have enough money on the card for the withdraw and a valid debit card with pin
-Postcondition: The cash is dispensed to the user
-Side Effects: None
-c) In an internet banking system, a facility that allows customers to transfer funds from one account held with the bank to another account with the same bank.
-Function: Transfer money
-Description: The given transferred amount is deducted from the sender's account and added to the receiver's account. 
-Input: Account number of receiver and amount to be transferred
-Source: Transfer money from source account to receivers account for a given amount
-Outputs: The given amount of money arrives at the destination account
-Destination: Selection of how much to send from the sender's account
-Action: The system is in 0 state when no transaction is happening. When a user wants to transfer money, the system asks for the amount to be transferred and the destination account details. After this information is given the funds are transferred to the destination
-Requires: Requires amount to be transferred and details for both source and destination accounts
-Precondition: Enough funds to supply the transfer and the details for both source and destination accounts
-Postcondition: The funds are transferred from the source to the destination account
-Side effects: None
-4.6) Suggest how an engineer responsible for drawing up a system requirements specification might keep track of the relationships between functional and non-functional requirements.
-Functional Requirements
-Describe what the system should do, requirements of individual system features
-Non-functional Requirments
-Describe the expectations of the system
+
+<br/>b) The cash-dispensing function in a bank ATM. 
+<br/><span style="margin-left:3em">Function: Dispense money from ATM
+<br/><span style="margin-left:3em">Description: Given the amount of money is dispensed to the user if they have a valid debit card and pin
+<br/><span style="margin-left:3em">Input: Amount of cashback, debit card, and pin
+<br/><span style="margin-left:3em">Source: Keypad to get the amount of cash wanted and pin. Card reader to insert a debit card
+<br/><span style="margin-left:3em">Outputs: The cash the user requests
+<br/><span style="margin-left:3em">Destination: Amount deducted from users card
+<br/><span style="margin-left:3em">Action: The ATM  is in 0 state when no transaction is happening. When the user inserts a card the ATM asks for a pin. Once a valid card and the pin is given the user can select the amount of cash they want. Once the amount of cash is inputted the ATM makes sure the card has enough money for that. If it does the card is given back and the money is dispensed.
+<br/><span style="margin-left:3em">Requires: Requires the user's card and pin, the amount of money the user wishes to take out
+<br/><span style="margin-left:3em">Precondition: User must have enough money on the card for the withdraw and a valid debit card with pin
+<br/><span style="margin-left:3em">Postcondition: The cash is dispensed to the user
+<br/><span style="margin-left:3em">Side Effects: None
+<br/>c) In an internet banking system, a facility that allows customers to transfer funds from one account held with the bank to another account with the same bank.
+<br/><span style="margin-left:3em">Function: Transfer money
+<br/><span style="margin-left:3em">Description: The given transferred amount is deducted from the sender's account and added to the receiver's account. 
+<br/><span style="margin-left:3em">Input: Account number of receiver and amount to be transferred
+<br/><span style="margin-left:3em">Source: Transfer money from source account to receivers account for a given amount
+<br/><span style="margin-left:3em">Outputs: The given amount of money arrives at the destination account
+<br/><span style="margin-left:3em">Destination: Selection of how much to send from the sender's account
+<br/><span style="margin-left:3em">Action: The system is in 0 state when no transaction is happening. When a user wants to transfer money, the system asks for the amount to be transferred and the destination account details. After this information is given the funds are transferred to the destination
+<br/><span style="margin-left:3em">Requires: Requires amount to be transferred and details for both source and destination accounts
+<br/><span style="margin-left:3em">Precondition: Enough funds to supply the transfer and the details for both source and destination accounts
+<br/><span style="margin-left:3em">Postcondition: The funds are transferred from the source to the destination account
+<br/><span style="margin-left:3em">Side effects: None
+<br/>4.6) Suggest how an engineer responsible for drawing up a system requirements specification might keep track of the relationships between functional and non-functional requirements.
+<br/><span style="margin-left:3em">Functional Requirements
+<br/><span style="margin-left:4em">-Describe what the system should do, requirements of individual system features
+<br/><span style="margin-left:3em">Non-functional Requirments
+<br/><span style="margin-left:4em">-Describe the expectations of the system
 An engineer could keep track of these by writing down all of the non-functional requirements and underneath each one write what functional requirements will be needed to satisfy this non-functional requirement.
 4.7) Using your knowledge of how an ATM is used, develop a set of use cases the could serve as a basis for understanding the requirements for an ATM system.
 The user does not have a valid card or forgets the pin so no transaction occurs
