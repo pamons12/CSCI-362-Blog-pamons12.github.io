@@ -65,64 +65,68 @@ Comment on whether or not you think this is a good suggestion.
 
 ### HW5: Chapter 4 and Reflections
 <span style="margin-left:3em">The readings this week seemed to focus on the importance of incorporating Test-Driven Development and establishing non-functional and functional requirements before the development phase even starts. Establishing non-functional and functional requirements before the development begins is essential to project organization and possible issues down the road. If a developer does not have a clear understanding of both the non-functional and functional requirements they could forget about a feature that could result in catastrophic errors and a delayed release date. I think the "Magical Number Seven" page ties in well here, this article states that the human brain can only store 7 (+-2) objects in their short term memory. The point is if all the functional and non-functional requirements are not laid out in an organized fashion the user could very easily forget to implement a feature, especially in big projects. After all, it is much easier to add features before development begins, instead of adding features mid-development or even worse at the end of development. With regard to incorporating test-driven development, all engineers should develop tests throughout the development process to ensure their software is behaving as intended.
+<br/>
 <br/>4.5) Using the technique suggested here, where natural language descriptions are presented in a standard format, write plausible user requirements for the following functions: 
 <br/>a) An unattended gas pump system that includes a credit card reader. The customer swipes the card through the reader, then specifies the amount of fuel required. The fuel is delivered and the customer's account is debited. 
-<br/><span style="margin-left:3em">Function: Issues gas
-<br/><span style="margin-left:3em">Description: Issue gas by charging the user for the amount of gas pumped
-<br/><span style="margin-left:3em">Input: pin/zipcode for debit or credit card, the grade of fuel
-<br/><span style="margin-left:3em">Source: Charging the credit card for the amount pumped based off of grade
-<br/><span style="margin-left:3em">Outputs: The gas the user pumps
-<br/><span style="margin-left:3em">Destination: Selection of fuel grade
-<br/><span style="margin-left:3em">Action: The gas filling system is at zero when no transaction is being made. When the card, card details, and the grade of fuel is selected, <br/><span style="margin-left:3em">the user can begin pumping gas. 
-<br/><span style="margin-left:3em">Requires: Requires a valid card with details and the grade of fuel
-<br/><span style="margin-left:3em">Precondition: User must have a valid credit/debit card with details to use it
-<br/><span style="margin-left:3em">Post Condition: The gas is issued
-<br/><span style="margin-left:3em">Side Effects: None
-
+<br/><span style="margin-left:3em">-Function: Issues gas
+<br/><span style="margin-left:3em">-Description: Issue gas by charging the user for the amount of gas pumped
+<br/><span style="margin-left:3em">-Input: pin/zipcode for debit or credit card, the grade of fuel
+<br/><span style="margin-left:3em">-Source: Charging the credit card for the amount pumped based off of grade
+<br/><span style="margin-left:3em">-Outputs: The gas the user pumps
+<br/><span style="margin-left:3em">-Destination: Selection of fuel grade
+<br/><span style="margin-left:3em">-Action: The gas filling system is at zero when no transaction is being made. When the card, card details, and the grade of fuel is selected, the user can begin pumping gas. 
+<br/><span style="margin-left:3em">-Requires: Requires a valid card with details and the grade of fuel
+<br/><span style="margin-left:3em">-Precondition: User must have a valid credit/debit card with details to use it
+<br/><span style="margin-left:3em">-Post Condition: The gas is issued
+<br/><span style="margin-left:3em">-Side Effects: None
+<br/>
 <br/>b) The cash-dispensing function in a bank ATM. 
-<br/><span style="margin-left:3em">Function: Dispense money from ATM
-<br/><span style="margin-left:3em">Description: Given the amount of money is dispensed to the user if they have a valid debit card and pin
-<br/><span style="margin-left:3em">Input: Amount of cashback, debit card, and pin
-<br/><span style="margin-left:3em">Source: Keypad to get the amount of cash wanted and pin. Card reader to insert a debit card
-<br/><span style="margin-left:3em">Outputs: The cash the user requests
-<br/><span style="margin-left:3em">Destination: Amount deducted from users card
-<br/><span style="margin-left:3em">Action: The ATM  is in 0 state when no transaction is happening. When the user inserts a card the ATM asks for a pin. Once a valid card and the pin is given the user can select the amount of cash they want. Once the amount of cash is inputted the ATM makes sure the card has enough money for that. If it does the card is given back and the money is dispensed.
-<br/><span style="margin-left:3em">Requires: Requires the user's card and pin, the amount of money the user wishes to take out
-<br/><span style="margin-left:3em">Precondition: User must have enough money on the card for the withdraw and a valid debit card with pin
-<br/><span style="margin-left:3em">Postcondition: The cash is dispensed to the user
-<br/><span style="margin-left:3em">Side Effects: None
+<br/><span style="margin-left:3em">-Function: Dispense money from ATM
+<br/><span style="margin-left:3em">-Description: Given the amount of money is dispensed to the user if they have a valid debit card and pin
+<br/><span style="margin-left:3em">-Input: Amount of cashback, debit card, and pin
+<br/><span style="margin-left:3em">-Source: Keypad to get the amount of cash wanted and pin. Card reader to insert a debit card
+<br/><span style="margin-left:3em">-Outputs: The cash the user requests
+<br/><span style="margin-left:3em">-Destination: Amount deducted from users card
+<br/><span style="margin-left:3em">-Action: The ATM  is in 0 state when no transaction is happening. When the user inserts a card the ATM asks for a pin. Once a valid card and the pin is given the user can select the amount of cash they want. Once the amount of cash is inputted the ATM makes sure the card has enough money for that. If it does the card is given back and the money is dispensed.
+<br/><span style="margin-left:3em">-Requires: Requires the user's card and pin, the amount of money the user wishes to take out
+<br/><span style="margin-left:3em">-Precondition: User must have enough money on the card for the withdraw and a valid debit card with pin
+<br/><span style="margin-left:3em">-Postcondition: The cash is dispensed to the user
+<br/><span style="margin-left:3em">-Side Effects: None
+<br/>
 <br/>c) In an internet banking system, a facility that allows customers to transfer funds from one account held with the bank to another account with the same bank.
-<br/><span style="margin-left:3em">Function: Transfer money
-<br/><span style="margin-left:3em">Description: The given transferred amount is deducted from the sender's account and added to the receiver's account. 
-<br/><span style="margin-left:3em">Input: Account number of receiver and amount to be transferred
-<br/><span style="margin-left:3em">Source: Transfer money from source account to receivers account for a given amount
-<br/><span style="margin-left:3em">Outputs: The given amount of money arrives at the destination account
-<br/><span style="margin-left:3em">Destination: Selection of how much to send from the sender's account
-<br/><span style="margin-left:3em">Action: The system is in 0 state when no transaction is happening. When a user wants to transfer money, the system asks for the amount to be transferred and the destination account details. After this information is given the funds are transferred to the destination
-<br/><span style="margin-left:3em">Requires: Requires amount to be transferred and details for both source and destination accounts
-<br/><span style="margin-left:3em">Precondition: Enough funds to supply the transfer and the details for both source and destination accounts
-<br/><span style="margin-left:3em">Postcondition: The funds are transferred from the source to the destination account
-<br/><span style="margin-left:3em">Side effects: None
+<br/><span style="margin-left:3em">-Function: Transfer money
+<br/><span style="margin-left:3em">-Description: The given transferred amount is deducted from the sender's account and added to the receiver's account. 
+<br/><span style="margin-left:3em">-Input: Account number of receiver and amount to be transferred
+<br/><span style="margin-left:3em">-Source: Transfer money from source account to receivers account for a given amount
+<br/><span style="margin-left:3em">-Outputs: The given amount of money arrives at the destination account
+<br/><span style="margin-left:3em">-Destination: Selection of how much to send from the sender's account
+<br/><span style="margin-left:3em">-Action: The system is in 0 state when no transaction is happening. When a user wants to transfer money, the system asks for the amount to be transferred and the destination account details. After this information is given the funds are transferred to the destination
+<br/><span style="margin-left:3em">-Requires: Requires amount to be transferred and details for both source and destination accounts
+<br/><span style="margin-left:3em">-Precondition: Enough funds to supply the transfer and the details for both source and destination accounts
+<br/><span style="margin-left:3em">-Postcondition: The funds are transferred from the source to the destination account
+<br/><span style="margin-left:3em">-Side effects: None
+<br/>
 <br/>4.6) Suggest how an engineer responsible for drawing up a system requirements specification might keep track of the relationships between functional and non-functional requirements.
 <br/><span style="margin-left:3em">Functional Requirements
 <br/><span style="margin-left:4em">-Describe what the system should do, requirements of individual system features
 <br/><span style="margin-left:3em">Non-functional Requirments
 <br/><span style="margin-left:4em">-Describe the expectations of the system
-An engineer could keep track of these by writing down all of the non-functional requirements and underneath each one write what functional requirements will be needed to satisfy this non-functional requirement.
-4.7) Using your knowledge of how an ATM is used, develop a set of use cases the could serve as a basis for understanding the requirements for an ATM system.
-The user does not have a valid card or forgets the pin so no transaction occurs
-The user wishes to make a deposit. The user inserts their debit card and pin. The user selects the deposit option and asks for the user to insert their cash. The user inserts cash and once the machine is done counting the user verifies the amount. ATM deposits funds to the account and returns the card to the user, the transaction is complete.
-The user wishes to make a withdraw. The user inserts their debit card and pin. The user selects the withdraw option and inputs the amount of cash they would like to withdraw. The ATM verifies the inputs and returns the card to the user. Once the card is returned the cash is dispensed, the transaction is complete.
-
+<br/><span style="margin-left:3em">-An engineer could keep track of these by writing down all of the non-functional requirements and underneath each one write what functional requirements will be needed to satisfy this non-functional requirement.
+<br/>
+<br/>4.7) Using your knowledge of how an ATM is used, develop a set of use cases the could serve as a basis for understanding the requirements for an ATM system.
+<br/><span style="margin-left:3em">-The user does not have a valid card or forgets the pin so no transaction occurs
+<br/><span style="margin-left:3em">-The user wishes to make a deposit. The user inserts their debit card and pin. The user selects the deposit option and asks for the user to insert their cash. The user inserts cash and once the machine is done counting the user verifies the amount. ATM deposits funds to the account and returns the card to the user, the transaction is complete.
+<br/><span style="margin-left:3em">-The user wishes to make a withdraw. The user inserts their debit card and pin. The user selects the withdraw option and inputs the amount of cash they would like to withdraw. The ATM verifies the inputs and returns the card to the user. Once the card is returned the cash is dispensed, the transaction is complete.
+<br/>
 *** HW6: Chapter 2
-2.1) Suggest the most appropriate generic software process model that might be used as a basis for managing the development of the following systems. Explain your answer according to the type of system being developed: 
-1. A system to control antilock braking in a car
-I think the most appropriate generic software process model for this example would be the waterfall model. I choose this model because it is focused on making sure there are no flaws before deployment and the antilock braking is a critical system in ensuring the driver's safety.
-2. A virtual reality system to support software maintenance
-I think the most appropriate generic software process model for this example would be incremental development. I choose this model because it would allow the developers to easily make changes or maintenance to the software based on the feedback of the users. It is also not a critical system
-3. A university accounting system that replaces an existing system
-I think the most appropriate generic software process model for this example would be integration and configuration. I choose this model because an existing system is being replaced and some of that data will be reused. 
-4. An interactive travel planning system that helps users plan journeys with the lowest environmental impact
-I think the most appropriate generic software process model for this example would be incremental development. I choose this model because it is likely developers may want to update the systems algorithm that figures out how large an environmental impact a trip is. 
+<br/>2.1) Suggest the most appropriate generic software process model that might be used as a basis for managing the development of the following systems. Explain your answer according to the type of system being developed: 
+<br/><span style="margin-left:3em">1. A system to control antilock braking in a car
+<br/><span style="margin-left:4em">-I think the most appropriate generic software process model for this example would be the waterfall model. I choose this model because it is focused on making sure there are no flaws before deployment and the antilock braking is a critical system in ensuring the driver's safety.
+<br/><span style="margin-left:3em">2. A virtual reality system to support software maintenance
+<br/><span style="margin-left:4em">-I think the most appropriate generic software process model for this example would be incremental development. I choose this model because it would allow the developers to easily make changes or maintenance to the software based on the feedback of the users. It is also not a critical system
+<br/><span style="margin-left:3em">3. A university accounting system that replaces an existing system
+<br/><span style="margin-left:4em">-<br/><span style="margin-left:4em">-I think the most appropriate generic software process model for this example would be integration and configuration. I choose this model because an existing system is being replaced and some of that data will be reused. 
+<br/><span style="margin-left:3em">4. An interactive travel planning system that helps users plan journeys with the lowest environmental impact
+<br/><span style="margin-left:4em">-I think the most appropriate generic software process model for this example would be incremental development. I choose this model because it is likely developers may want to update the systems algorithm that figures out how large an environmental impact a trip is. 
 
 
