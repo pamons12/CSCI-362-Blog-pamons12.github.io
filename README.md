@@ -144,10 +144,14 @@ Comment on whether or not you think this is a good suggestion.
 
   6.4) Draw diagrams showing a conceptual view and a process view of the architectures of the following systems:
 
-A ticket machine used by passengers at a railway station.
+    A ticket machine used by passengers at a railway station.
+    ![6 4 1](https://user-images.githubusercontent.com/47860735/94605516-3d675000-0267-11eb-8402-1ae9c1c79db8.jpg)
 
-A computer-controlled video conferencing system that allows video, audio, and computer data to be visible to several participants at the same time.
+    A computer-controlled video conferencing system that allows video, audio, and computer data to be visible to several participants at the same time.
+    ![6 4 2](https://user-images.githubusercontent.com/47860735/94605515-3c362300-0267-11eb-8010-0778470191bb.jpg)
 
-A robot floor-cleaner that is intended to clean relatively clear spaces such as corridors. The cleaner must be able to sense walls and other obstructions.
-![6 4 3](https://user-images.githubusercontent.com/47860735/94605193-bfa34480-0266-11eb-8b40-30f0ce1c51af.jpg)
+    A robot floor-cleaner that is intended to clean relatively clear spaces such as corridors. The cleaner must be able to sense walls and other obstructions.
+    ![6 4 3](https://user-images.githubusercontent.com/47860735/94605193-bfa34480-0266-11eb-8b40-30f0ce1c51af.jpg)
+
+
 
