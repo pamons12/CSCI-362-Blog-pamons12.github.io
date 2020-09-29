@@ -128,8 +128,8 @@ Comment on whether or not you think this is a good suggestion.
 <br/><span style="margin-left:4em">-I think the most appropriate generic software process model for this example would be integration and configuration. I choose this model because an existing system is being replaced and some of that data will be reused. 
 <br/><span style="margin-left:3em">4. An interactive travel planning system that helps users plan journeys with the lowest environmental impact
 <br/><span style="margin-left:4em">-I think the most appropriate generic software process model for this example would be incremental development. I choose this model because it is likely developers may want to update the systems algorithm that figures out how large an environmental impact a trip is. 
-  
-  ### HW7: Chapter 5 and 6
+
+### HW7: Chapter 5 and 6
   5.3) You have been asked to develop a system that will help with planning large-scale events and parties such as weddings, graduation celebrations, and birthday parties. Using an activity diagram, model the process context for such a system that shows the activities involved in planning a party (booking a venue, organizing invitations, etc.) and the system elements that might be used at each stage.
   ![5 3](https://user-images.githubusercontent.com/47860735/94605169-b87c3680-0266-11eb-941e-d1cf1bb8eff4.jpg)
   
