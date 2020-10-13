@@ -187,5 +187,4 @@ Upon reading the first four chapters of the Mythical Man-Month it became apparen
 <br/><span style="margin-left:2em">-It is often difficult to distinguish between these maintenance types because they often overlap with each other. They also all try to accomplish the same goal by having software that runs correctly without issues.
 
 <br/>9.10) Do software engineers have a professional responsibility to develop code that can be easily maintained even if their employer does not explicitly request it?
-
 <br/><span style="margin-left:2em">-Software engineers have a professional responsibility to develop easily maintainable code, even if their employer does not request it. This would save money and time for both the company and client if an issue arose down the road. It is much easier to maintain code that is written with ease of maintenance in mind. Also, before the software is even deployed, testing and fixing bugs would be much easier if the software was written to be easily maintained.
