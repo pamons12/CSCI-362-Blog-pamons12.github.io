@@ -188,3 +188,10 @@ Upon reading the first four chapters of the Mythical Man-Month it became apparen
 
 <br/>9.10) Do software engineers have a professional responsibility to develop code that can be easily maintained even if their employer does not explicitly request it?
 <br/><span style="margin-left:2em">-Software engineers have a professional responsibility to develop easily maintainable code, even if their employer does not request it. This would save money and time for both the company and client if an issue arose down the road. It is much easier to maintain code that is written with ease of maintenance in mind. Also, before the software is even deployed, testing and fixing bugs would be much easier if the software was written to be easily maintained.
+  
+### HW12: Chapter 16
+
+<br/>16.9) Design the interface of components that might be used in a system for an emergency control room. You should design interfaces for a call logging component that records calls made, and a vehicle discovery component that, given a postcode (zip code) and an incident type, finds the nearest suitable vehicle to be dispatched to the incident.
+
+
+
