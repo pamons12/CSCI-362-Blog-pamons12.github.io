@@ -195,4 +195,14 @@ Upon reading the first four chapters of the Mythical Man-Month it became apparen
 
 ![IMG_1254](https://user-images.githubusercontent.com/47860735/96297654-2f336680-0fbf-11eb-8f24-0e7083292815.jpg)
 
+### HW13: Chapter 17
+
+17.10) Your company wishes to move from using desktop applications to accessing the same functionality remotely as services. Identify three risks that might arise and suggest how these risks may be reduced.
+<br/>1. Moving online will require more network bandwidth, causing latency and slow connection speeds, especially if the application deals with large files, such as video files. 
+<br/><span style="margin-left:2em">-To reduce the risk of this problem, all of the company's offices would need to pay to have their network upgraded to suit their particular needs.
+<br/>The transition to remote might take a while and result in a lot of downtime and issues.
+<br/><span style="margin-left:2em">Before the transition is rolled out to the entire company, select a test group of a few people to use it daily and have them record any problems they encounter. It is better to have this small test group to have issues instead of the entire company.
+<br/>Since the application is going online, there is always the concern of network security and how the employees are accessing the program.
+<br/><span style="margin-left:2em">To reduce the risk of this problem, make sure employees are educated on being safe on the internet. Distribute employee laptops if they are allowed to work from home and only allow the laptops to connect to the internet if a company-issued VPN is running. Hire a cybersecurity expert team to monitor network traffic and ensure all security components are up to date.
+
 
