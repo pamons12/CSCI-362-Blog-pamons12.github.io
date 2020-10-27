@@ -206,3 +206,7 @@ Upon reading the first four chapters of the Mythical Man-Month it became apparen
 <br/><span style="margin-left:2em">-To reduce the risk of this problem, make sure employees are educated on being safe on the internet. Distribute employee laptops if they are allowed to work from home and only allow the laptops to connect to the internet if a company-issued VPN is running. Hire a cybersecurity expert team to monitor network traffic and ensure all security components are up to date.
 
 
+### HW14: Chapter 18
+
+18.4) Define an interface specification for the Currency Converter and Check credit rating services shown in Figure 18.7.
+
