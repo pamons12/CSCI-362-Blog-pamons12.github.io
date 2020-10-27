@@ -210,3 +210,5 @@ Upon reading the first four chapters of the Mythical Man-Month it became apparen
 
 18.4) Define an interface specification for the Currency Converter and Check credit rating services shown in Figure 18.7.
 
+![SE HW 14 screenshot](https://user-images.githubusercontent.com/47860735/97328458-6a9a2480-184c-11eb-8327-8131225c9628.jpg)
+
