@@ -212,3 +212,7 @@ Upon reading the first four chapters of the Mythical Man-Month it became apparen
 
 ![SE HW 14 screenshot](https://user-images.githubusercontent.com/47860735/97328458-6a9a2480-184c-11eb-8327-8131225c9628.jpg)
 
+### HW15: Chapter 19
+19.3) Why is it impossible to infer the emergent properties of a complex system from the properties of the system components?
+
+<br/><span style="margin-left:2em">It is impossible to infer a complex system's emergent properties just based on the system components. System components only relate to an individual element of the system. Emergent properties are the properties of the system as a whole. A collection of system components will give you a good idea about the system, but it does not show how these individual components relate to each other. It is almost like receiving a bunch of car parts in the mail without any instructions. Someone might know it is a car, but they will not know how these parts relate to each other without any mechanical experience.
