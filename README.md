@@ -216,3 +216,8 @@ Upon reading the first four chapters of the Mythical Man-Month it became apparen
 19.3) Why is it impossible to infer the emergent properties of a complex system from the properties of the system components?
 
 <br/><span style="margin-left:2em">It is impossible to infer a complex system's emergent properties just based on the system components. System components only relate to an individual element of the system. Emergent properties are the properties of the system as a whole. A collection of system components will give you a good idea about the system, but it does not show how these individual components relate to each other. It is almost like receiving a bunch of car parts in the mail without any instructions. Someone might know it is a car, but they will not know how these parts relate to each other without any mechanical experience.
+  
+  ### HW16: Chapter 20
+  
+20.10) You work for a software company that has developed a system that provides information about consumers and that is used within a SoS by a number of other retail businesses. They pay you for the services used. Discuss the ethics of changing the system interfaces without notice to coerce users into paying higher charges. Consider this question from the point of view of the company's employees, customers, and shareholders.
+
