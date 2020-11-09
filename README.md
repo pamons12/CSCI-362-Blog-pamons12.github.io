@@ -217,13 +217,22 @@ Upon reading the first four chapters of the Mythical Man-Month it became apparen
 
 <br/><span style="margin-left:2em">-It is impossible to infer a complex system's emergent properties just based on the system components. System components only relate to an individual element of the system. Emergent properties are the properties of the system as a whole. A collection of system components will give you a good idea about the system, but it does not show how these individual components relate to each other. It is almost like receiving a bunch of car parts in the mail without any instructions. Someone might know it is a car, but they will not know how these parts relate to each other without any mechanical experience.
   
-  ### HW16: Chapter 20
+### HW16: Chapter 20
   
 20.10) You work for a software company that has developed a system that provides information about consumers and that is used within a SoS by a number of other retail businesses. They pay you for the services used. Discuss the ethics of changing the system interfaces without notice to coerce users into paying higher charges. Consider this question from the point of view of the company's employees, customers, and shareholders.
 
 <br/><span style="margin-left:2em">-This is very unethical for any software company to do. When a software company is thinking about changing the system interface they should always consult their customers and ask them will they be willing to pay more for this new updated interface. First, let's consider this dilemma from the employee's point of view. The employees would most likely get a raise due to the increased price of their product, but at the same time, they would be practicing bad ethics. From the customer's perspective, it would be unfair to change the interface and charge more without notifying them because then the customers are in a sticky situation. Either they pay more for the software, or they spend time and resources researching a replacement. Lastly, from the shareholder's perspective, I think their views would be similar to the employees in that since the company is charging more, they are making more profits, which makes their stock more valuable. 
   
-  ### HW17: Team Progress I
+### HW17: Team Progress I
   
 So far, our team has been working great together. Everyone has been working together to get the work done well before the deadline. We have almost all of our testing framework complete; all we have left is the last two deliverables. 
+
+### HW18: Chapter 21 and Chapter 22
+21.4) Explain why object-oriented approach to software development may not be suitable for real-time systems.
+
+<br/><span style="margin-left:2em">-An object-oriented approach to software development of real-time systems would not be appropriate. Real-time systems must meet their timing requirements; object-oriented programming is often complicated and requires additional code to manipulate and access created objects resulting in degraded performance. This degraded performance will get worse when more and more objects are created. An alternative to object-oriented programming would be process-oriented programming. This type of programming is still complicated, but it is usually more efficient than object-oriented programming because processes can share memory resulting in fewer duplicates of things. 
+
+<br/>22.6) Fixed-price contracts, where the contractor bids a fixed price to complete a system development, may be used to move project risk from client to contractor. If anything goes wrong, the contractor has to pay. Suggest how the use of such contracts may increase the likelihood that product risks will arise. 
+
+<br/><span style="margin-left:2em">-These contracts could look good to both contractors and clients, but there is a degree of risk associated with them. From the contractor's side of view, if something happens in their personal life, such as sickness, they might be in a sticky situation as the project's development would be behind, and they would have to either cut corners or pay the client. From the client's view, if the project is delayed, then that could result in them losing money and time. Another possible risk for the client is that if the software needs to be changed or maintained down the road, the contractor might not be available, resulting in the client having to hire someone else to figure out what the contractor did or, even worse, start from scratch.
 
