@@ -222,5 +222,8 @@ Upon reading the first four chapters of the Mythical Man-Month it became apparen
 20.10) You work for a software company that has developed a system that provides information about consumers and that is used within a SoS by a number of other retail businesses. They pay you for the services used. Discuss the ethics of changing the system interfaces without notice to coerce users into paying higher charges. Consider this question from the point of view of the company's employees, customers, and shareholders.
 
 <br/><span style="margin-left:2em">-This is very unethical for any software company to do. When a software company is thinking about changing the system interface they should always consult their customers and ask them will they be willing to pay more for this new updated interface. First, let's consider this dilemma from the employee's point of view. The employees would most likely get a raise due to the increased price of their product, but at the same time, they would be practicing bad ethics. From the customer's perspective, it would be unfair to change the interface and charge more without notifying them because then the customers are in a sticky situation. Either they pay more for the software, or they spend time and resources researching a replacement. Lastly, from the shareholder's perspective, I think their views would be similar to the employees in that since the company is charging more, they are making more profits, which makes their stock more valuable. 
-
+  
+  ### HW17: Team Progress I
+  
+So far, our team has been working great together. Everyone has been working together to get the work done well before the deadline. We have almost all of our testing framework complete; all we have left is the last two deliverables. 
 
