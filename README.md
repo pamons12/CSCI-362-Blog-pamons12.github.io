@@ -238,3 +238,6 @@ So far, our team has been working great together. Everyone has been working toge
 
 ### HW 19: 
 23.6) Figure 23.14 shows the task durations for software project activities. Assume that a serious, unanticipated setback occurs, and instead of taking 10 days, task T5 takes 40 days. Draw up new bar charts showing how the project might be reorganized. 
+
+![SE HW 19](https://user-images.githubusercontent.com/47860735/99431149-4922da80-28d8-11eb-9c8b-069d63441a8a.jpg)
+
