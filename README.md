@@ -241,3 +241,6 @@ So far, our team has been working great together. Everyone has been working toge
 
 ![SE HW 19](https://user-images.githubusercontent.com/47860735/99431149-4922da80-28d8-11eb-9c8b-069d63441a8a.jpg)
 
+### HW20: Team Progress II
+
+Since our last team update, not much has changed in terms of teamwork. We have made some changes to our script so that it reads in method names from the test files instead of having them hardcoded in.  We are planning on starting Deliverable #5 today. 
