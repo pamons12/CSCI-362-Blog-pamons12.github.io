@@ -236,3 +236,5 @@ So far, our team has been working great together. Everyone has been working toge
 
 <br/><span style="margin-left:2em">-These contracts could look good to both contractors and clients, but there is a degree of risk associated with them. From the contractor's side of view, if something happens in their personal life, such as sickness, they might be in a sticky situation as the project's development would be behind, and they would have to either cut corners or pay the client. From the client's view, if the project is delayed, then that could result in them losing money and time. Another possible risk for the client is that if the software needs to be changed or maintained down the road, the contractor might not be available, resulting in the client having to hire someone else to figure out what the contractor did or, even worse, start from scratch.
 
+### HW 19: 
+23.6) Figure 23.14 shows the task durations for software project activities. Assume that a serious, unanticipated setback occurs, and instead of taking 10 days, task T5 takes 40 days. Draw up new bar charts showing how the project might be reorganized. 
