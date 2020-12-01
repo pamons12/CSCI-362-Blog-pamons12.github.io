@@ -244,3 +244,7 @@ So far, our team has been working great together. Everyone has been working toge
 ### HW20: Team Progress II
 
 Since our last team update, not much has changed in terms of teamwork. We have made some changes to our script so that it reads in method names from the test files instead of having them hardcoded in.  We are planning on starting Deliverable #5 today. 
+
+### HW21: Chapter 24
+
+
