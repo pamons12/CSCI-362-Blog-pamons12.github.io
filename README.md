@@ -247,4 +247,7 @@ Since our last team update, not much has changed in terms of teamwork. We have m
 
 ### HW21: Chapter 24
 
+24.6) Explain why program inspections are an effective technique for discovering errors in a program. What types of errors are unlikely to be discovered through inspections?
+
+<br/><span style="margin-left:2em">-Program inspections are a great quick way to check for errors. They allow developers to check for errors without compiling and running any code, which is a big time-saver, especially for large projects. Although program inspections may help find more simple errors, it is often challenging to recognize more complex ones. This is why program inspections could never replace testing. Thorough testing will discover more complex errors that may only show when it is up and running. 
 
